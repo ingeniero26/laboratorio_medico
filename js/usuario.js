@@ -188,9 +188,9 @@ function listar_usuario_serverside(){
                 "data": 5,
                 render: function(data, type, row) {
                     if (data == 'ACTIVO') {
-                        return "<span class='label label-success'>" + data + "</span>";
+                        return "<span class='badge bg-success'>" + data + "</span>";
                     } else {
-                        return "<span class='label label-danger'>" + data + "</span>";
+                        return "<span class='badge bg-danger'>" + data + "</span>";
                     }
                 }
             },

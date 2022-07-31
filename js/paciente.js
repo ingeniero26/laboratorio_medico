@@ -25,9 +25,9 @@ function listar_paciente_serverside(){
                 "data": 9,
                 render: function(data, type, row) {
                     if (data == 'ACTIVO') {
-                        return "<span class='label label-success'>" + data + "</span>";
+                        return "<span class='badge bg-success'>" + data + "</span>";
                     } else {
-                        return "<span class='label label-danger'>" + data + "</span>";
+                        return "<span class='badge bg-danger'>" + data + "</span>";
                     }
                 }
             },

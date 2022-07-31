@@ -33,9 +33,9 @@ function listar_medico(){
                 "data": "estatus",
                 render: function(data, type, row) {
                     if (data == 'ACTIVO') {
-                        return "<span class='label label-success'>" + data + "</span>";
+                        return "<span class='badge bg-success'>" + data + "</span>";
                     } else {
-                        return "<span class='label label-danger'>" + data + "</span>";
+                        return "<span class='badge bg-danger'>" + data + "</span>";
                     }
                 }
             },
