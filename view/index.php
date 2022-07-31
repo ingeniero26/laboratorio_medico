@@ -204,6 +204,13 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   <p>Medicos</p>
                 </a>
               </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" onclick="cargar_contenido('contenido_principal','realizar_examen/vista_realizar_examen.php')">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Realizar Examen</p>
+                </a>
+              </li>
+</li>
         </ul>
          <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
