@@ -258,8 +258,12 @@ function listar_usuario_serverside(){
 		//console.log(resp);
 		var cadena ="<option value=''>Seleccione...</option>";
 		if(data.length>0) {
+			
 			for (var i = 0; i < data.length; i++) {
-				cadena+="<option value='"+data[i][0]+"'>"+data[i][1]+"</option>";
+				if(data[i][0] !="5") {
+					cadena+="<option value='"+data[i][0]+"'>"+data[i][1]+"</option>";
+				}
+				
 			}
 			$('#cmb_rol').html(cadena);
 			$('#cmb_rol_editar').html(cadena);

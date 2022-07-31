@@ -134,7 +134,7 @@ function listar_medico(){
         var cadena ="<option value=''>Seleccione...</option>";
         if(data.length>0) {
             for (var i = 0; i < data.length; i++) {
-                if(data[i][0]!= "4") {
+                if(data[i][0]== "5") {
                 cadena+="<option value='"+data[i][0]+"'>"+data[i][1]+"</option>";
   
                 }
